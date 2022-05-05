@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+first time upload on github
+i>     git init 
+ii>    git add .
+iii>   git commit -m "27th april session"
+iv>    git branch
+v>     git remote add origin go to github click on code copy the link   and  paste here.
+vi>    git push origin master
+
+
+Regular upload on github
