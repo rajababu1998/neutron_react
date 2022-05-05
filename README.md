@@ -80,3 +80,17 @@ vi>    git push origin master
 
 
 Regular upload on github
+
+i>     git status
+ii>    git add file-name
+iii>   git commit -m "27th April 20222 session"
+iv>    git branch
+v>     git push origin master
+
+
+git first download
+
+i>     git clone :downloaded blank repository to your system.
+ii>    npn install
+iii>   npm start
+iv>    git pull origin master
