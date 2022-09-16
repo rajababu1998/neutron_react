@@ -1,0 +1,43 @@
+body {
+    background-color: aqua!important;
+    /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+/* button {
+    padding: 20px;
+    background-color: green;
+} */
+
+.my-div {
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+    color: white;
+    font-size: 40px;
+}
+
+.my-div-temp {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(89, 0, 255);
+    color: rgb(209, 29, 29);
+    font-size: 40px;
+}
+
+.navbar-expand {
+    flex-wrap: wrap!important;
+}
+
+.title {
+    padding: 20px 50px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.app-main {
+    position: relative;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100vh;
+}
