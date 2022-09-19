@@ -36,7 +36,7 @@ export default TollywoodChild
 
 
 // 1 : initialize state variable  - 
-// 2 : display it.      
+// 2 : display it.
 // 3 : write a button create a function onclick 
 // 4 : write a function for onclick
 // 5 : function is going to update the state variable.

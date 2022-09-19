@@ -6,7 +6,7 @@ const HookReducer = () => {
         netBalance:10000,
         showNetBalance:false
     }
-    // reducer is a functio which will accept two parameter.
+    // reducer is a function which will accept two parameter.
     // reducer is going to implement like if else like yeh hai to ye kardo ye hai to ye kardo
     const reducer = (state, action) => {
         switch(action.type) {

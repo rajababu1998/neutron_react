@@ -14,6 +14,7 @@ const RefFn = () => {
         outRef1.current.innerHTML = inputRef1.current.value + inputRef2.current.value;
         childRef.current.innerHTML = inputRef1.current.value + inputRef2.current.value;
     }
+    
   return (
     <>
         <br></br>

@@ -36,8 +36,7 @@ There are two types of components.
 i>    Class components.
 ii>   function components.
 
-Templating -> handling of html in any framework or library or any kind of
-web-development plateform that concept is called templating.
+Templating -> handling of html in any framework or library or any kind of web-development plateform that concept is called templating.
 
 
 require                     vs             import/export                
@@ -123,8 +122,7 @@ function(fn) {
 
 Higher order component(HOC) => HOC is a function which accept component as an input and returns component as an output.
 
-Uncontroled Component : ref is uncontroled component because it is not in the controlled of
-react.
+Uncontroled Component : ref is uncontroled component because it is not in the controlled of react.
 
 Controled Component : onSubmit onClick these are controlled component because react 
 controlled these all.
