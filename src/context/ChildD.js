@@ -5,7 +5,7 @@ const ChildD = (props) => {
     const temp = useContext(NameContext);
   return (
     <>
-        ChildD Compoent
+        Child D Compoent
         <br></br>
         Name in D {temp.name}
 

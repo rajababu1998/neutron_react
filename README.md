@@ -345,3 +345,72 @@ context-variable is also used for sharing data on global level.
     ix>   useNavigate();
     x>    useLocation();
     xi>   useParams();
+
+
+    Lift State : in lift state we are passing some new data from child to parent that is called lifting state up.
+
+    in functional component if you have to pass any data use arrow function not a normal function.
+
+    in liftstate we are learning how to take input from users.
+
+
+    Why do we use react over other component ?
+    One of the main benefits of using React JS is its potential to reuse components. It saves time for developers as they don't have to write various codes for the same features. Furthermore, if any changes are made in any particular part, it will not affect other parts of the application
+
+    What is DOM in React?
+    The DOM (Document Object Model) represents the web page as a tree structure. Any piece of HTML that we write is added as a node, to this tree. With JavaScript, we can access any of these nodes (HTML elements) and update their styles, attributes, and so on.
+
+    What is hooks in react?
+    React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects. React provides a bunch of standard in-built hooks: useState : To manage states
+
+    What is JSX in React?
+    JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+    Why is React better than angular?
+    React is better than Angular due to it's virtual DOM implementation and rendering optimizations.
+
+    What is virtual DOM vs Real DOM?
+    Virtual DOM is just like a blueprint of a machine, can do the changes in the blueprint but those changes will not directly apply to the machine.
+
+    Real Dom                               Virtual Dom
+    Dom manipulation is very expensive    Dom manipulation is very easy.
+    There is to much memory wastage       No memory wastage
+    It updates Slow                       It updates fast
+    It can directly update HTML           It can't update HTML directly
+    Create a new DOM if the elements      Update the JSX if the element update
+    update.                                
+    It allows us to directly target any   It can produce about 200,000 Virtual DOM
+    specific node (HTML element)          Nodes / Second. 
+    It represents the Ul of your          It is only a virtual representation of the DOM
+    application
+
+
+    setState() is async or sync in nature? Explain?
+    Yes, setState() is asynchronous, React does not guarantee that the state changes are applied immediately. setState() does not always immediately update the component.
+
+    useMemo() : in this react is going to memorize our value if there is no any changes 
+    in that so it is not going to render it again and again.
+    re-rendering se bachne ke liye something which is not required we don't render it.
+
+    useMemo is one of the important hooks to improve performence.
+    usememo is going to memorize the output or final value of function 
+
+    in case of callBack callBack is going to remember its complete function
+    (temp) => {
+        return 'Data from render - ' + temp + name;
+    }  
+
+    useCallback : it is similar if it is not required we don't re-render it.
+    if we want save our child component to re-render then we can use callBack function.
+
+
+    useMemo is going to memorize the value of that function but useCallback is going to 
+    memorise function itself.
+    both of them have purpose to solve the extra re-rendering.
+
+    useNavigate() - it is used for re-direct.
+    useLocation() - fetch data from url in hidden. redirect wale scenario me we are
+    going to fetch data.
+    useParam() - exactly  parameter url se leke aayenge.
+
+    useRef() : 

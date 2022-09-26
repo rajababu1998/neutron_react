@@ -1,6 +1,7 @@
 import React,{ useRef,forwardRef } from 'react'
 
 const RefFnChild = (props,ref) => {
+  console.log('bacha ho kya...')
   return (
     <>
         
