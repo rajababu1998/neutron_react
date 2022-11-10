@@ -32,6 +32,26 @@ i>    npm init
 ii>   npm install react    :it is going to install latest version of react.
 iii>  npm install raact-dom 
 
+
+How to upload project on heroku
+i> heroku login
+ii> git init
+iii> heroku create -b https://github.com/mars/create-react-app-buildpack.git
+iv> git add
+v> git commit -am "my first commit"
+vi> git push heroku master
+
+How to upload react project on netlify.
+1> Build Your application
+
+i> yarn build or npm build
+ii> Drag and drop your build folder to Netlify mannual upload section.
+
+2> Deploy using Github
+i> Connect to the Github
+ii> Choose your repository/branch
+iii> Change the deployment code to
+
 There are two types of components.
 i>    Class components.
 ii>   function components.
@@ -108,11 +128,14 @@ in functional component to achieve state
 in react instead of if - && operator
          instead of if-else - ?:
 
+
 useEffecct is triggered once when setState is completed.
+
 
 Higher order function(HOF) => In a function either you are accepting
 a function as a parameter or returning a function as a parameter 
 or both.
+
 
 ex. 
 function(fn) {
@@ -414,3 +437,9 @@ context-variable is also used for sharing data on global level.
     useParam() - exactly  parameter url se leke aayenge.
 
     useRef() : 
+
+    when we use redux and contextApt?
+    when we have to keep mostly things on local then we use redux
+    and when we have to keep less things on local then we use contextApi.
+
+    if we have redux then don't use state variable.

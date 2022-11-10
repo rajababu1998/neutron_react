@@ -22,7 +22,7 @@ const HookCallback = () => {
         <div>--------------------------------------------------------</div>
         
         <button onClick={() => setName('New Temp Name- hahahahhah')}>Button Name Update</button>
-        <HookCallbackChild temp={renderChildComp}/>
+        <HookCallbackChild temp={renderChildComp} />
     </>
   )
 }

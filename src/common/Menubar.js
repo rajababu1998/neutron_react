@@ -18,7 +18,9 @@ const Menubar = () => {
                   <NavDropdown.Item>
                     <Link to='/hookcallback' className='nav-link btn btn-outline-success'>Hook Call Back</Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item></NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to='/hookparams' className='nav-link btn btn-outline-success'>Hook Params</Link>
+                  </NavDropdown.Item>
                 </NavDropdown>
 
                 

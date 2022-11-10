@@ -1,6 +1,6 @@
 import React from 'react';
 
-const withFilter = (InputComponent,data) => {
+const withFilter = (InputComponent, data) => {
     class OutputComponent extends React.Component {
         constructor(props) {
             super(props);

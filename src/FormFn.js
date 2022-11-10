@@ -22,12 +22,12 @@ const FormFn = () => {
     }
 
     const input_email = (event) => {
-        console.log('input username', event.target.value);
+        console.log('input email', event.target.value);
         setEmail(event.target.value);
     }
 
     const input_password = (event) => {
-        console.log('input username', event.target.value);
+        console.log('input password', event.target.value);
         setPassword(event.target.value);
     }
 
@@ -39,7 +39,6 @@ const FormFn = () => {
     
   return (
     <>
-        
         <h2>Registration Form</h2>
         <br></br>
         <form>

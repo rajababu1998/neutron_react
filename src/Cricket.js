@@ -18,6 +18,7 @@ class Cricket extends Component {
         // this.state = {
         //     count : this.state.count + 1
         // }
+
         console.log(this.state.count);
         // this.forcrUpdate
         this.setState({
