@@ -55,6 +55,9 @@ const Menubar = () => {
                 <Link to='/formfn' className='nav-link btn btn-outline-success'>FormFn</Link>
                 <Link to='/formpr' className='nav-link btn btn-outline-success'>FormPr</Link>
                 <Link to='/formfn2' className='nav-link btn btn-outline-success'>FormFn2</Link>
+                <Link to='/pr1' className='nav-link btn btn-outline-success'>Pr1</Link>
+                <Link to='/pr2' className='nav-link btn btn-outline-success'>Pr2</Link>
+                <Link to='/calculator' className='nav-link btn btn-outline-success'>Calculator</Link>
           
               </Navbar>
                 

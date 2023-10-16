@@ -73,8 +73,7 @@ if(){                                 if(){
 
 Snapshot : Rough version of actual dom.
 
-Virtual dom : make a copy of orignal and make changes and then upload on 
-main server.
+Virtual dom : make a copy of orignal and make changes and then upload on main server.
 means: State changes -> Compute differences -> Re-render
 
 Fragment tag : it is a concept where we are going wrap multiple sibling
@@ -89,6 +88,7 @@ div > span : it will peak only the immediate child.
 State vs Props
 
 Props/something else : data transfer across components - not possible using js
+
 data transfer across componets have two scenario.
 scene 1 : not connected components
 props object : scene 2 - connected component parent-child means we can transfer data from parent to child and child to parent
@@ -147,8 +147,7 @@ Higher order component(HOC) => HOC is a function which accept component as an in
 
 Uncontroled Component : ref is uncontroled component because it is not in the controlled of react.
 
-Controled Component : onSubmit onClick these are controlled component because react 
-controlled these all.
+Controled Component : onSubmit onClick these are controlled component because react controlled these all.
 
 
 Class Component : in a class component complete sequence of predefined functions are allready established.
@@ -171,7 +170,7 @@ getDerivedStateFromProps : inclusion of props variable.
 custom function triggered -> state get updated -> props updated.
 phase 2 : re-render : 
 due to those external effect now re-rendering process is going to start. 
-getDerivedStateFromProps : it going to check current status of all the variable
+getDerivedStateFromProps : it is going to check current status of all the variable
 shouldComponentUpdate :  comparing virtual dom
 ***** render-jsx
 getSnapshotbeforeUpdate : 
@@ -443,3 +442,7 @@ context-variable is also used for sharing data on global level.
     and when we have to keep less things on local then we use contextApi.
 
     if we have redux then don't use state variable.
+
+    Why do we use liftState up ?
+    State is basically used for transefering the data throughout the component but 
+    we have to make it is use for accross the component so we use the liftState up.

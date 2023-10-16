@@ -8,7 +8,6 @@ const ChildD = (props) => {
         Child D Compoent
         <br></br>
         Name in D {temp.name}
-
         <br></br>
         Name - {props.name}
     </>

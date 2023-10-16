@@ -13,6 +13,7 @@ const LiftState = () => {
         console.log('Input field function triggered.....',event.target.value);
         setCountry(event.target.value);
     }
+    
   return (
     <>
         <div className='row bg-light bg-opacity-50'>
@@ -24,9 +25,7 @@ const LiftState = () => {
             <div className='col-12'>
                 <LiftStateChild country = {country} liftFn = {updateCountry} handleChange = {updateCountryInput}/>
             </div>
-        </div>
-        
-        
+        </div>        
     </>
   )
 }
@@ -34,4 +33,4 @@ const LiftState = () => {
 export default LiftState
 
 // country = {country}   it means we are passing country as a props.
-// liftFn = {updateCountry}  it means we are passing function as a props 
+// liftFn = {updateCountry}  it means we are passing function as a props. 

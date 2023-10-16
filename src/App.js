@@ -28,6 +28,7 @@ import ContactApp from './ContactApp';
 import HookReducer from './hooks/HookReducer';
 import Parent from './context/Parent';
 import Parent1 from './context1/Parent1';
+import Pr1 from './Pr1';
 
 import './css/myStyle.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -51,6 +52,8 @@ import HookLayoutEffect from './hooks/HookLayoutEffect';
 import HookParams from './hooks/HookParams';
 import HookMemo from './hooks/HookMemo';
 import HookCallback from './hoc/HookCallback';
+import Calculator from './Calculator';
+import Pr2 from './Pr2';
 
 
 
@@ -114,10 +117,12 @@ function App() {
 
               <Route path='/*' element={<NotFound />}/>
               <Route path='/' element={<Login />}/> 
+              <Route path='/pr1' element={<Pr1 />}/>
+              <Route path='/pr2' element={<Pr2 />}/> 
+              <Route path='/calculator' element={<Calculator />}/>
               
             </Routes>
-
-            
+              
           </div>
           <Right/>
         </div>

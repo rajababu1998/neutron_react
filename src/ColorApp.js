@@ -2,7 +2,9 @@ import React, { useContext } from 'react'
 import { DataAppContext } from './common/DataApp'
 
 const ColorApp = () => {
+
     const dataAppTemp = useContext(DataAppContext);
+    
     const colors = [
         {
             name: 'blue',

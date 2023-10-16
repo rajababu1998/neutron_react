@@ -24,10 +24,6 @@ class ChildB1 extends React.Component {
               }
             }
           </NameContext.Consumer>
-  
-  
-  
-  
           <div>------------------------------------</div>
           <ChildC1/>
         </>

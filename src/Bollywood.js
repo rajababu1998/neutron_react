@@ -27,6 +27,7 @@ const Bollywood = () => {
     const displaySouth = () => {
         setLocation('south_hemisphere');
     }
+    
     return(
         <>
         <div>Bollywood</div>
@@ -53,7 +54,7 @@ const Bollywood = () => {
             <button className="btn btn-primary btn-sm" onClick={displaySouth}>South Africa</button>
             <button className="btn btn-primary btn-sm" onClick={displaySouth}>Mexico</button>
             <br></br>
-            Hemishphere - 
+            Hemishphere -   
             {
                 (location !== '') && (location === 'north_hemisphere' ? <span>North</span> : <span>South</span>)
             }

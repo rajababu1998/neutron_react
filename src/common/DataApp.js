@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from 'react'
 const DataAppContext = createContext();
 
 const DataApp = (props) => {
-    const [isLoggedIn,setLogin] = useState(true);
+    const [isLoggedIn, setLogin] = useState(true);
     const [userName, setUserName] = useState('Raja Babu');
     const [bgColor, setBgColor] = useState('white');
 
@@ -21,7 +21,6 @@ const DataApp = (props) => {
                         {props.children}
                     </div>
                 </div>
-                
             </DataAppContext.Provider>
         </>
     )

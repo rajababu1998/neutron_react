@@ -3,10 +3,11 @@ import axios from "axios"
 import { nanoid } from 'nanoid'
 
 const ContactApp = () => {
+
     const [contactList, setContactList] = useState([]);
 
-    
     const initialValues = {id : '', name : '', email : ''}
+
     const [formData,setFormData] = useState(initialValues);
 
 
@@ -48,7 +49,6 @@ const ContactApp = () => {
         // api call
         apiCallPost(formData);
         setFormData(initialValues);
-        
     }
 
     const deleteContact = (id) => {
@@ -101,6 +101,7 @@ const ContactApp = () => {
             <div>--------------------------------------------------</div>
             <br></br>
             <h3>Add New Contact</h3>
+            
             <form>
                 ID:
                 <input type="text" name='id' onChange = {handleChange} value={formData.id}/>

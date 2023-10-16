@@ -40,7 +40,7 @@ const HookMemo = () => {
                     <button onClick={() => updateSubscription(!subscribe)}>Subscribe</button>
                 </div>
                 <div>
-                    <button onClick={() => updateCars([...cars, 'Tesla'])}>Add Car</button>
+                    <button onClick={() => updateCars([...cars, 'Tesla', 'Lamborgini'])}>Add Car</button>
                 </div>
             </div>
         </div>

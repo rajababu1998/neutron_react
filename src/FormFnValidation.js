@@ -69,12 +69,13 @@ const FormFnValidation = () => {
         if(formData.password.length < 8) {    
             error.password = 'please enter atleast 8 character...'
         }
+
         if(!formData.username.match(/[A-Za-z]/)) {   
             error.username = 'please enter non-digit character...'
         }
+
         return error;
     };
-
     
     return(
         <>
@@ -97,7 +98,7 @@ const FormFnValidation = () => {
                 <br></br>
             </form>
             <br></br>
-            {formStatus && <div>Form Successfully Submited</div>}
+            {formStatus && <div>Form Successfully Submited </div>}
         </>
     )
 }

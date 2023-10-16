@@ -7,7 +7,7 @@ const NameContext = createContext();
 const Parent1 = () => {
   const [name, setName] = useState('Mr ABC');
   const [count, setCount] = useState(0);
-  console.log('api key', process.env.REACT_APP_GITHUB_API_KEY)
+  console.log('api key', process.env.REACT_APP_GITHUB_API_KEY);
 
   return (
     <>

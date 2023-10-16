@@ -12,6 +12,7 @@ const HookLayoutEffect = () => {
     useLayoutEffect(() => {
         console.log('useLayoutEffect triggered...');
     })
+    
   return (
     <>
         <div>Hook Layout Effect</div>

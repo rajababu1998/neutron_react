@@ -8,6 +8,7 @@ const HookReducer = () => {
     }
     // reducer is a function which will accept two parameter.
     // reducer is going to implement like if else like yeh hai to ye kardo ye hai to ye kardo
+    
     const reducer = (state, action) => {
         switch(action.type) {
             case 'INCREMENTBYONE':
@@ -38,17 +39,19 @@ const HookReducer = () => {
     // const [show, setShow] = useState(false) 
 
     // Way of intializing useReducer
-    const [state, dispatch] = useReducer(reducer,initialvalues);
+    const [state, dispatch] = useReducer(reducer, initialvalues);
     // state: global state variable
     // dispatch: function to update state
     // dispatch: it will have one parameter to explain the action type.
-    // reducer: function to handle all type of actions and update state
+    // reducer: function to handle all type of actions and update state.
 
     useEffect(()=> {
-        console.log('component re-triggered....',state);
+        console.log('component re-triggered....', state);
     })
+    
   return (
     <>
+    
         <br></br>
         <button onClick={() => dispatch({type:'INCREMENTBYONE'})}>Update Transaction Count</button>
         <br></br>
@@ -59,6 +62,7 @@ const HookReducer = () => {
         <div>Balance - {state.numTransaction}</div>
         <div>Balance - {state.netBalance}</div>
         {state.showNetBalance && <div>mission successful...</div> }
+
     </>
   )
 }
